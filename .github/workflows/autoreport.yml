@@ -8,7 +8,7 @@ on:
         description: 'Delayed time (Optional) 可选延迟时间'
         required: false
   schedule:
-    - cron: '0 23 * * *' # Schedule on CST 7 everyday
+    - cron: '0 16,23 * * *' # Schedule on CST 7 everyday
 
 jobs:
   bot:
